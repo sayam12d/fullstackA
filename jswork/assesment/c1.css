@@ -1,0 +1,112 @@
+
+/*body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  #startbtn {
+height: 20px;
+width: 20px;
+  }
+  .container {
+    text-align: center;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vh;
+  }
+  
+  #bulbBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
+  .hidden {
+    display: none;
+  }*/
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: blueviolet;
+    height: 80vh; 
+    width: 80vh;  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #startBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #startBtn:hover {
+    background-color: lightgray;
+  }
+  
+  #inputContainer {
+    margin-top: 20px;
+  }
+  
+  #numBulbs {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  #generateBulbs {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  #generateBulbs:hover {
+    background-color: lightgray;
+  }
+  
+  #bulbBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .bulb-container {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .bulb-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
